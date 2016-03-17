@@ -61,7 +61,7 @@ int main()
             }
         }
         fwrite(kstr_now,strlen(kstr_now),1,fp2);
-        fprintf(fp2,"\b%d",hv_now);
+        fprintf(fp2,"  %d",hv_now);
     }
     fclose(fp1);
     fclose(fp2);
