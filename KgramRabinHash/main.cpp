@@ -24,7 +24,7 @@ int main()
         kstr_now = (char*)malloc(sizeof(char)*K);
 
         int i;
-        int h; //the value of h would be "pow(d, M) % q "
+        int h=1; //the value of h would be "pow(d, M) % q "
         for( i = 0; i < K; i++)
         {
             h = ( h * BASE ) % MODNUM;
