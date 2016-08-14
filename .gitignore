@@ -31,3 +31,11 @@
 *.cbp
 *.layout
 *.depend
+
+#vc++6.0 files
+*.dsp
+*.dsw
+*.ncb
+*.opt
+*.plg
+*/Debug/*
